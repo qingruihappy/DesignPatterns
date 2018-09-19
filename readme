@@ -1,3 +1,4 @@
+注意了，在这里先写一下提交github的坑。先commit，完了之后再pull，之后在push，至于原因回头有时间了研究一下再说吧。
 本目录按照Head First设计模式（中文版）这本书来写的。
 目录结构:
 1,设计模式入门:com.DesignPatterns.aa.introduction
