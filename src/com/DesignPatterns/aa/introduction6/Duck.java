@@ -16,7 +16,6 @@ public abstract class Duck {
 		quackBehavior.quack();
 	}
 
-	
 	public void swim() {
 		System.out.println("All ducks float, even decoys!");
 	}
