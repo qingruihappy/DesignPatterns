@@ -18,6 +18,7 @@ package com.DesignPatterns.ad.factory1;
  * 这个就是就会调用Pizza里面的方法，因为CheesePizza等子类都继承了Pizza，所以这个时候CheesePizza没有的方法，都会去父类里面找的。
  * 只需要把参数的值告诉Pizza就行了。
  * 
+ * 补充：其实就相当于抽出来放到了另一个类中的道理是一样的。
  * 
  * 5，那问题来了，假如现在是两个工厂怎么办呢。就是说SimplePizzaFactory有两个，每个输出都不一样的呀。
  * 
