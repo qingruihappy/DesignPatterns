@@ -9,7 +9,6 @@ public class PizzaStore {
  
 	public Pizza orderPizza(String type) {
 		Pizza pizza;
-		fff(type);
 		pizza = factory.createPizza(type);
  
 		pizza.prepare();
