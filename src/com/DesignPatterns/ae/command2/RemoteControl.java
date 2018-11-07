@@ -1,7 +1,5 @@
 package com.DesignPatterns.ae.command2;
 
-import java.util.*;
-
 //
 // This is the invoker
 //

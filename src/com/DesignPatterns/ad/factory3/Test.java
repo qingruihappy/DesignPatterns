@@ -11,16 +11,12 @@ package com.DesignPatterns.ad.factory3;
 public class Test {
 
 	public static void main(String[] args) {
-		PizzaStore nyStore = new NYPizzaStore();
 		PizzaStore chicagoStore = new ChicagoPizzaStore();
-
-		Pizza pizza = nyStore.orderPizza("cheese");
+		PizzaStore nyStore = new NYPizzaStore();
 		// 1,找到PizzaStore抽象类中来,因为这个时候nyStore是NYPizzaStore
 		// 2,调用了NYPizzaStore的createPizza方法
 		// 3,在NYPizzaStore的方法中有NYPizzaIngredientFactory实例，所以这个时候调用了
-		System.out.println("伊桑下令 " + pizza + "=======");
-
-		pizza = chicagoStore.orderPizza("cheese");
+		Pizza pizza = chicagoStore.orderPizza("cheese");
 		System.out.println("乔尔下令 " + pizza + "=======");
 
 		pizza = nyStore.orderPizza("clam");
